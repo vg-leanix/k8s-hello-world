@@ -4,7 +4,7 @@ Small K8s demos
 Run the commands
 
 ```
-docker build ./app -t vncgrvs/fastapi-server
+docker build -t vncgrvs/fastapi-server ./app
 kubectl -f hello-world.yaml
 ``````
 
